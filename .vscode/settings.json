@@ -2,5 +2,6 @@
   "explorer.compactFolders": false,
   "editor.mouseWheelZoom": true,
   "workbench.sideBar.location": "right",
-  "java.compile.nullAnalysis.mode": "automatic"
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "automatic"
 }
