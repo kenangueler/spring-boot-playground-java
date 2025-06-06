@@ -32,3 +32,16 @@ out/
 /nbdist/
 /.nb-gradle/
 
+### Temporary files ###
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*.DS_Store
+*.class
+*.jar
+
+## env vars ###
+.env*
+!.env.example
