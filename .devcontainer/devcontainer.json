@@ -1,0 +1,25 @@
+{
+	"name": "Spring Boot Playground | Java",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "23",
+			"jdkDistro": "amzn",
+			"installMaven": "false",
+			"installGradle": "true"
+		},
+		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {
+			"theme": "bira"
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker:latest": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vscjava.vscode-java-pack",
+				"redhat.vscode-yaml",
+				"vmware.vscode-boot-dev-pack"
+			]
+		}
+	}
+}
