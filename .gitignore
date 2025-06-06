@@ -45,3 +45,6 @@ out/
 ## env vars ###
 .env*
 !.env.example
+
+### Java ###
+Dumm*.java
