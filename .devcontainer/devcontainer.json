@@ -1,6 +1,12 @@
 {
 	"name": "Spring Boot Playground | Java",
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+	"postStartCommand": "bash ./.devcontainer/cmd/postStart.sh",
+	"appPort": [
+		"8080:8080"
+	],
+	"workspaceFolder": "/workspace/spring-boot",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/spring-boot,type=bind",
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "23",
