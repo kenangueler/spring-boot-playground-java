@@ -1,5 +1,6 @@
 {
   "explorer.compactFolders": false,
   "editor.mouseWheelZoom": true,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "java.compile.nullAnalysis.mode": "automatic"
 }
