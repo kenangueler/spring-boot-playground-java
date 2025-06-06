@@ -1,1 +1,1 @@
-# Spring Boot Playground | Java
+# Spring Boot Playground (Java)
