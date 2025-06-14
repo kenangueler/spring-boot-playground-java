@@ -1,21 +1,12 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "projectName": "spring-boot-playground-java",
-        "type": "java",
-        "name": "SpringBootPlayground",
-        "request": "launch",
-        "mainClass": "com.example.demo.DemoApplication",
-        "args": "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005",
-        "envFile": "${workspaceFolder}/.env"
-      },
-      {
-        "type": "java",
-        "name": "Attach to Running App",
-        "request": "attach",
-        "hostName": "localhost",
-        "port": 5005
-      }
-    ]
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot: Playground",
+      "request": "launch",
+      "mainClass": "com.example.demo.DemoApplication",
+      "args": "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
 }

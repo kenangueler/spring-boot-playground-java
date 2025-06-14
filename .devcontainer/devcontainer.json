@@ -1,6 +1,10 @@
 {
 	"name": "Spring Boot Playground | Java",
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+	"remoteEnv": {
+		"PODMAN_USERNS": "keep-id"
+	},
+	"containerUser": "vscode",
 	"postStartCommand": "bash ./.devcontainer/cmd/postStart.sh",
 	"appPort": [
 		"8080:8080"
