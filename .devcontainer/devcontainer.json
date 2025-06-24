@@ -11,6 +11,9 @@
 	],
 	"workspaceFolder": "/workspace/spring-boot",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/spring-boot,type=bind",
+  "mounts": [
+    "source=${localWorkspaceFolderBasename}-gradle,target=/home/vscode/.gradle,type=volume"
+  ],
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "23",
