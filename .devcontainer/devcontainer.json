@@ -10,7 +10,7 @@
 		"8080:8080"
 	],
 	"workspaceFolder": "/workspace/spring-boot",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/spring-boot,type=bind",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/spring-boot,type=bind",
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "23",
